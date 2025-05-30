@@ -1,6 +1,6 @@
 import React from "react";
 import { createContext, useState, useEffect } from "react";
-const API = "http://localhost:4000/api";
+const API = "https://digitalzone-33vl.onrender.com";
 const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
