@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 const useFetch =()=>
 {
-const SERVER_URL = 'http://localhost:4000/api/';
+const SERVER_URL = 'https://digitalzone-33vl.onrender.com';
 
 const useLogin = async (email, password)=>{
 

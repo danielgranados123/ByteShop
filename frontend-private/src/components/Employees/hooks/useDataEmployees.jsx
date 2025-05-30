@@ -4,8 +4,8 @@ import toast, {Toaster} from 'react-hot-toast';
 
 const useDataEmployees = () => {
 
-    const ApiRegister="http://localhost:4000/api/registerEmployees";
-    const ApiEmployees="http://localhost:4000/api/employees";
+    const ApiRegister="https://digitalzone-33vl.onrender.com/registerEmployees";
+    const ApiEmployees="https://digitalzone-33vl.onrender.com/employees";
  
     const [activeTab, setActiveTab] = useState("list");
       const [id, setId] = useState("");

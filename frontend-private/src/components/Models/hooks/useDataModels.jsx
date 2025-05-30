@@ -16,7 +16,7 @@ const useDataModels = () => {
 
   //funcion para consultar los modelos
   const fetchModels = async () => {
-    const response = await fetch("http://localhost:4000/api/models", {
+    const response = await fetch("https://digitalzone-33vl.onrender.com/models", {
       method: "GET",
      // credentials: "include",
         headers: {
@@ -41,7 +41,7 @@ const useDataModels = () => {
       
     };
 
-    const response = await fetch("http://localhost:4000/api/models", {
+    const response = await fetch("https://digitalzone-33vl.onrender.com/models", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -70,7 +70,7 @@ const useDataModels = () => {
 
   //funcion para eliminar un modelo
   const deleteModel = async (id) => {
-    const response = await fetch(`http://localhost:4000/api/models/${id}`, {
+    const response = await fetch(`https://digitalzone-33vl.onrender.com/models/${id}`, {
       method: "DELETE",
       
       headers: {
@@ -102,7 +102,7 @@ const useDataModels = () => {
     const updatedModel = {
       name: modelName,
     };
-    const response = await fetch(`http://localhost:4000/api/models/${id}`, {
+    const response = await fetch(`https://digitalzone-33vl.onrender.com/models/${id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",

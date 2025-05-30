@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 const useDataBrands = () => {
 
   const [activeTab, setActiveTab] = useState("list");
-  const API = "http://localhost:4000/api/brands";
+  const API = "https://digitalzone-33vl.onrender.com/brands";
   const [id, setId] = useState("");
   const [nameBrand, setNameBrand] = useState("");
   const [brands, setBrands] = useState([]);

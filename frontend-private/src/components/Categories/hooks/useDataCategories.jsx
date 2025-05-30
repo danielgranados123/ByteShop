@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { toast } from "react-hot-toast";
 const useDataCategories = () => {
 const [activeTab, setActiveTab] = useState("list");
-  const API = "http://localhost:4000/api/categories";
+  const API = "https://digitalzone-33vl.onrender.com/categories";
   const [id, setId] = useState("");
   const [nameCategory, setNameCategory] = useState("");
   const [description, setDescription] = useState("");
